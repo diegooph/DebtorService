@@ -1,18 +1,18 @@
-# Spring Boot App in Kotlin [![Build Status](https://travis-ci.org/int128/spring-boot-kotlin-starter.svg?branch=master)](https://travis-ci.org/int128/spring-boot-kotlin-starter)
-
-An example project with Spring Boot and Kotlin.
-
-* Serving static content under `/src/main/resources/static` with Spring MVC.
-* Providing REST endpoint with Spring Data REST.
-* Accessing to database with Spring Data JPA.
-* Configuring application with Spring Boot.
-* Written in Kotlin.
+# DebtorService 
 
 
-## How to Use
-
-Build and run.
-
+##  Gradle Installation
+https://www.tutorialspoint.com/gradle/gradle_installation.htm
 ```sh
-./gradlew bootRun
+$ gradle -v
 ```
+Install all dependencies of gradle contained in build.gradle 
+## MySql 
+https://www.devmedia.com.br/instalando-e-configurando-a-nova-versao-do-mysql/25813
+```js
+mysql> CREATE DATABASE debtorservice;
+```
+## Start server
+Start main class: com.debtorService.DebtorService.DebtorServiceApplication
+## Front-end
+https://github.com/diegooph/DebtorWeb
